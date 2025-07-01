@@ -1,0 +1,60 @@
+body {
+    background-color: hsl(0, 0%, 20%);
+    height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 10%);
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+
+
+.blocos {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+.nome, .local{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: oxanium, cursive;
+}
+
+.descricao {
+    font-family: oxanium, cursive;
+    margin-top: 10px;
+}
+
+.blocos img{
+    width: 30px;
+    padding: 15px 10px;
+    margin: 10px;
+    filter: brightness(.5);
+}
+
+.blocos img:hover {
+    transform: scale(1.8);
+    transition: 0.5s ease-out;
+    cursor: pointer;
+    filter: brightness(1);
+}
